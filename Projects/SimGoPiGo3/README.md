@@ -200,7 +200,7 @@ sim
 sim.log
 ```
 
-Also there is a program to list the GoPiGo3 simulated data content:
+Also there is a program to list the GoPiGo3 simulated data content (in sim/simData.json):
 ```
 $ sim/listSimData.py 
 vBatt:9.5
