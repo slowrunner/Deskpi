@@ -200,6 +200,17 @@ sim
 sim.log
 ```
 
+Also there is a program to list the GoPiGo3 simulated data content:
+```
+$ sim/listSimData.py 
+vBatt:9.5
+motor_limit_left:300
+motor_limit_right:300
+motor_dps_left:0
+motor_dps_right:0
+rangeSensor_mm:916.0
+
+```
 Note: it isn’t simulating movement over time - would have to launch a subprocess for that and I didn’t really want to get that tricky.
 
 Just an idea if someone wanted to flesh out a simulator for remote code testing prior to getting access to a bot.
