@@ -40,6 +40,8 @@ class Mutex(object):
                 acquired = True
             except IOError: # already locked by a different process
                 time.sleep(0.001)
+                # SIMULATION
+                acquired = True
             except Exception as e:
                 print(e)
         if self.mutex_debug:
