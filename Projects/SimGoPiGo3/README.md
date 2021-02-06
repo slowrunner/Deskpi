@@ -6,6 +6,13 @@ Limitations:
 - Simulates easygopigo3.EasyGoPiGo3 class
 - Simulates the Distance Sensor
 
+# === To Get It ===
+```
+wget https://github.com/slowrunner/Deskpi/raw/master/Projects/SimGoPiGo3/SimGoPiGo3.tgz
+tar -xzvf SimGoPiGo3.tgz
+```
+
+# USING SIMULATED GOPIGO3 REMOTE DEVELOPMENT ENVIRONMENT
 
 Where a program normally has:
 
